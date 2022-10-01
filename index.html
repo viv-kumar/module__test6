@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="upper">
+      <h6>Registration Form</h6>
+    </div>
+    <div id="bottom">
+      <form action="#" onsubmit="return validation()">
+        <div class="formchild1">
+          <label for="fname">First name</label><br />
+          <input type="text" id="fname" name="fname" /><br>
+          <span id="firstname" style="color: red; width: 100%;"></span>
+        </div>
+        <div class="formchild2">
+          <label for="lname">Last name</label><br />
+          <input type="text" id="lname" name="lname" /><br>
+          <span id="lasttname" style="color: red"></span>
+        </div>
+        <div class="formchild3">
+          <label for="email">Email</label><br />
+          <input type="text" id="email" class="length" name="email" />
+          <span id="emaill" style="color: red"></span>
+        </div>
+        <div class="formchild4">
+          <label for="Password">Password</label><br />
+          <input type="text" id="Password" class="length" name="Password" />
+          <span id="pass" style="color: red"></span>
+        </div>
+        <div class="formchild5">
+          <label for="Cpassword">Confirm Password</label><br />
+           <input type="text" id="Cpassword" name="Cpassword"class="length" ><br>
+          <span id="Cpass" style="color: red"></span>
+        </div>
+        <div></div>
+        <div class="formchild6">
+          <input type="checkbox" name="TANDC" id="box" />
+          <label for="TANDC">Agree to terms and conditons</label><br />
+          <span id="condition" style="color: red"></span>
+        </div>
+        <div></div>
+        <div></div>
+        <div class="formchild7">
+          <input type="submit" value="Submit form" />
+        </div>
+      </form>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>

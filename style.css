@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#upper {
+  text-align: center;
+  height: 20%;
+  background-color: black;
+  color: white;
+  font-size: 400%;
+  font-weight: 100;
+  padding: 28px;
+}
+#bottom {
+  background-color: rgb(197, 194, 194);
+  height: 50%;
+  
+}
+#bottom>form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 50%;
+    margin: auto;
+    gap: 40px 5px;
+   padding: 15px;
+}
+.formchild5{
+    width: 100%;
+    margin-left: 80%;
+}
+.length{
+    width: 250px;
+}
+.formchild6{
+    margin-left: 1%;
+    margin-top: 4%;
+    font-weight: 400;
+    width: 200%;
+    
+
+}
+.formchild7{
+    
+    
+    margin-left: 120%;
+}
+.formchild7>input{
+   background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
